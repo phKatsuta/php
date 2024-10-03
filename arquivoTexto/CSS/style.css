@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background: #0f0f0f;
+    color: white;
+    font-family: verdana;
+    font-size: 16px;
+    text-align: justify;
+
+}
+body{
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+h1{
+    text-align: center;
+}
+#header{
+    background:linear-gradient(
+        to bottom,
+        rgb(0, 0, 165),
+        #0f0f0f
+    );
+    top: 0;
+    width: auto;
+    position: fixed;
+    padding: 10px 0;
+    height: 300px;
+}
+#main{
+
+    max-height: 700px;
+    overflow: auto;
+}
+#footer{
+    background:linear-gradient(
+        to top,
+        rgb(0, 0, 165),
+        #0f0f0f
+    );
+    bottom: 0;
+    width: 800px;
+    height: 100px;
+    position: fixed;
+    padding: 15px;
+    font-size: 12px;
+    text-align: left;
+}
+
+#cadastro{
+    
+    /* center the div */
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+
+    /* Effect of div */
+    padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image:
+      linear-gradient(
+        to bottom, 
+        rgb(0, 0, 165),
+        #0f0f0f
+        ) 1 100%;
+}
+
+p{
+    display: table-row;
+}
+label{
+    text-align: right;
+    display: table-cell;
+}
+input[type=text]{
+    display: table-cell;
+}
+input[type=submit]{
+    color: rgb(0, 0, 165);
+    width: 100%;
+    padding: 8px 10px;
+    border: solid  rgb(0, 0, 165);
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    content: "";
+    clear: both;
+}
+input[type=submit]:hover{
+    background-color: rgb(0, 0, 165);
+    color: white;
+    border: solid white;
+    font-size: 20px;
+    border-radius: 50px;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+button{
+    background:rgb(0, 0, 165);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-position: 100% 0;
+    background-color: white;
+    color: rgb(0, 0, 165);
+    border-radius: 50px;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+table{
+    width: 750px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+th, td{
+    border: solid;
+    padding: 5px;
+    white-space: nowrap;
+    
+    overflow: auto;
+
+}
